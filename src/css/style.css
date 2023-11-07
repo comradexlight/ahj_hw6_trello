@@ -1,0 +1,49 @@
+.board {
+  display: flex;
+  background-color: #026aa7;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #ebecf0;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(9,30,66,.25);
+}
+
+.column-heading {
+  margin-top: 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #dfe1e6;
+  color: #172b4d;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.cards {
+  margin-top: 10px;
+}
+
+.card {
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(9,30,66,.25);
+  font-size: 14px;
+  color: #172b4d;
+}
+
+.add-card-button {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 4px;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.add-card-button:hover {
+  background-color: #ddd;
+}

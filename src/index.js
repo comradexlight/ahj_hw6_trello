@@ -1,2 +1,6 @@
+import KanbanBoard from './js/KanbanBoard';
 import './css/style.css';
-import './js/app';
+
+document.addEventListener('DOMContentLoaded', () => {
+  const kanbanBoard = new KanbanBoard(document.querySelector('.board'));
+});
