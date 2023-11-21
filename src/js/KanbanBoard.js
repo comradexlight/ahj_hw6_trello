@@ -6,6 +6,5 @@ export default class KanbanBoard {
         element = document.querySelector(element);
       }
     this._element = element;
-	this.columns = this._element.querySelectorAll('.column').forEach((column) => new KanbanColumn(column));
 	};
 }
